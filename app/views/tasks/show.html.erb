@@ -1,0 +1,6 @@
+<h1> Detalhes da Tarefa </h1>
+
+<h2><%= @task.description %> - <%= @task.status %> - Criada em <%= @task.created_at %></h2>
+
+<%= link_to "Todas Tarefas", tasks_path %>
+<%= link_to "Edit", edit_task_path(@task) %>
